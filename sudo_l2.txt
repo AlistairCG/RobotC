@@ -1,0 +1,27 @@
+robot start
+
+	forward until linefollower hits black line
+	left turn 
+	forward until linefollower ends 
+	slow forward until front sensor "sees" object
+	claw open
+	claw closed
+	arm up
+	
+	right turn
+	forward 1m
+	right turn
+	forward until linefollower hits black line
+	left turn 
+	forward until linefollower ends 
+	slow forward until front sensor "sees" object
+	arm down
+	claw open
+	
+	reverse 1m
+	left turn
+    forward until front sensor "sees" object
+	right turn
+	forward until front sensor "sees" object
+	stop
+	
